@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/subject_id"
+        android:icon="@drawable/book"
+        android:title="Subject" />
+    <item
+        android:id="@+id/timetable_id"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/calender"
+        android:title="Timetable"
+        android:visible="true" />
+    <item
+        android:id="@+id/lecturer_id"
+        android:icon="@drawable/contact"
+        android:title="Lecture" />
+    <item
+        android:id="@+id/logout_id"
+        android:title="Logout" />
+</menu>
